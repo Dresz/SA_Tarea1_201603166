@@ -1,19 +1,34 @@
 <html>
   <link rel="stylesheet" href="sources/main.css">
-  <link rel="stylesheet" href="sources/main.js">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="sources/main.js"></script>
+  <script src="sources/funciones.js"></script>
     <div class="login-page">
         <div class="form">
-          <form class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="text" placeholder="email address"/>
-            <button>create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </form>
-          <form class="login-form">
-            <input type="text" placeholder="Usuario"/>
-            <button>Agregar</button>
-          </form>
+          
+            <input type="text" id = "nombre" placeholder="Usuario"/>
+            
+            <button id="btn" name="btn" onclick="insertar()">Agregar</button>
+         
+          
+            
+          
+        </div>
+      </div>
+      <div class="login-page">
+        <div class="form">
+          
+          <table id="customers">
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+            </tr>
+            
+          </table>
+         
+          
+            
+          
         </div>
       </div>
 </html>
